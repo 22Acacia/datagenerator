@@ -7,8 +7,8 @@ import (
     "strconv"
     "net/url"
     "net/http"
-    "appengine"
-    "appengine/urlfetch"
+    "google.golang.org/appengine"
+    "google.golang.org/appengine/urlfetch"
 )
 
 func init() {
